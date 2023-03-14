@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Bootstrap title 1 </title>
+</head>
+
+<body>
+
+    <div class=" main .table-responsive p-3 mb-2 text-white ">
+
+
+        <div class="heading  p-3 mb-2  text-dark ">
+            <div class="  row box_head border">
+                <div class=" w-50 text-center col-5 p-3 mb-2  text-dark">
+                    <h2 class=".font-weight-bold .text-dark"> FORM</h2>
+                </div>
+                <div class="   w-50 text-center col-5 p-3 mb-2  text-dark">
+                    <h2 class=".font-weight-bold">TABLE</h2>
+                </div>
+                </div>
+       
+            <div class=" my-2 content  row border">
+
+                <div class=" border my-1 mx-1  w-40 col-5 p-3 mb-2 ">
+                    <div class=" my-1 form-group row">
+
+                        <label for="Name_input" class="col-3 col-form-label h3">Name :
+                        </label>
+
+                        <div class="col-sm-6"> <input type="text" class="form-control" id="Name_input"
+                                placeholder="Name">
+                        </div>
+
+                    </div>
+                    <div class="my-1 form-group row">
+
+                        <label for="Mobile_input" class="col-3  h3 col-form-label">Mobile:
+                        </label>
+
+                        <div class="col-sm-6"> <input type="number" class="form-control" id="Mobile_input"
+                                placeholder="">
+                        </div>
+
+                    </div>
+
+                    <div class="my-1 form-group row">
+
+                        <label for="Date_input" class="col-3 h3 col-form-label">Date:
+                        </label>
+
+                        <div class="col-sm-6"> <input type="date" class="form-control" id="Date_input" placeholder="">
+                        </div>
+
+                    </div>
+
+                    <div class="my-1 form-group row">
+
+                        <label for="Address_input" class="col-3 h3 col-form-label">Address:
+                        </label>
+
+                        <div class="col-sm-8"> <textarea class="form-control" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+
+                    <fieldset class="my-1 form-group row">
+
+                        <legend class="col-form-label col-3 h3">Gender</legend>
+                        <div class="col-sm-8  ">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="Male" checked>
+                                <label class="form-check-label h6" for="gridRadios1">
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input " type="radio" name="gridRadios" id="gridRadios2"
+                                    value="Female">
+                                <label class="form-check-label h6" for="gridRadios2">
+                                    Female
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3"
+                                    value="Other">
+                                <label class="form-check-label h6" for="gridRadios2">
+                                    Other
+                                </label>
+                            </div>
+
+                        </div>
+                    </fieldset>
+
+                    <div class="my-1 form-group row">
+
+                        <label for="City_input" class="col-3 h3 col-form-label">City:
+                        </label>
+
+                        <div class="col-sm-6"> <select class="form-select form-select-sm"
+                                aria-label=".form-select-sm example">
+                                <option selected>Meerut</option>
+                                <option value="1">Delhi</option>
+                                <option value="2">Noida</option>
+                                <option value="3">Gurugram</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="my-1 form-group row">
+
+                        <label for="Hobby_input" class="col-3 h3 col-form-label">Hobby:
+                        </label>
+
+                        <div class="col-sm-6"> <select class="form-select form-select-sm"
+                                aria-label=".form-select-sm example">
+                                <option selected>Reading</option>
+                                <option value="1">Writing</option>
+                                <option value="2">Painting</option>
+                                <option value="3">Coding</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <div class="row my-2  d-flex justify-content-center">
+
+                        <button type="button" class="btn btn-dark col-sm-5 my-1 mx-1">Submit</button>
+
+                        <button type="button" class="btn btn-light col-sm-5 my-1 mx-1">Reset</button>
+                    </div>
+
+                </div>
+                <div class=" w-50 my-2 col-5 row border container mx-2 table-responsive ">
+
+
+                    <table class="table table-hover ">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Mobile</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Address</th>
+                            <th scope="col">Gender</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Hobby</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Ayushman</td>
+                            <td>**********</td>
+                            <td>11/10/2000</td>
+                            <td>ayushmanvasisth872@gmail.com</td>
+                            <td>** xxyxz ** city pincode:45**232</td>
+                            <td>Meerut</td>
+                            <td>Reading</td>
+                          
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Ayushman</td>
+                            <td>**********</td>
+                            <td>11/10/2000</td>
+                            <td>ayushmanvasisth872@gmail.com</td>
+                            <td>** xxyxz ** city pincode:45**232</td>
+                            <td>Meerut</td>
+                            <td>Reading</td>
+                          
+                          </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Ayushman</td>
+                            <td>**********</td>
+                            <td>11/10/2000</td>
+                            <td>ayushmanvasisth872@gmail.com</td>
+                            <td>** xxyxz ** city pincode:45**232</td>
+                            <td>Meerut</td>
+                            <td>Reading</td>
+                          
+                          </tr>
+                        </tbody>
+                      </table>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+    <div class="col-5"></div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
